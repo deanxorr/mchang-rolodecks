@@ -49,5 +49,4 @@ class ContactsController < ApplicationController
     redirect_to contacts_url, notice: 'Contact destroyed'
   end
 
-
 end
