@@ -6,6 +6,8 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'random_data'
+  gem 'gherkin', '~>2.11.1'
+  gem 'cucumber', '~>1.2.1'
 end
 
 group :production do
